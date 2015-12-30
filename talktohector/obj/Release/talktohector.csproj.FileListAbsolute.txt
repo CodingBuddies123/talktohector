@@ -1,0 +1,12 @@
+c:\users\20904\documents\visual studio 2013\Projects\talktohector\talktohector\bin\talktohector.dll.config
+c:\users\20904\documents\visual studio 2013\Projects\talktohector\talktohector\bin\talktohector.dll
+c:\users\20904\documents\visual studio 2013\Projects\talktohector\talktohector\bin\talktohector.pdb
+c:\users\20904\documents\visual studio 2013\Projects\talktohector\talktohector\obj\Release\talktohector.dll
+c:\users\20904\documents\visual studio 2013\Projects\talktohector\talktohector\obj\Release\talktohector.pdb
+C:\Users\20904\documents\visual studio 2013\Projects\talktohector\talktohector\obj\Release\talktohector.csprojResolveAssemblyReference.cache
+C:\Users\20904\Documents\GitHub\talktohector\talktohector\bin\talktohector.dll.config
+C:\Users\20904\Documents\GitHub\talktohector\talktohector\bin\talktohector.dll
+C:\Users\20904\Documents\GitHub\talktohector\talktohector\bin\talktohector.pdb
+C:\Users\20904\Documents\GitHub\talktohector\talktohector\obj\Release\talktohector.csprojResolveAssemblyReference.cache
+C:\Users\20904\Documents\GitHub\talktohector\talktohector\obj\Release\talktohector.dll
+C:\Users\20904\Documents\GitHub\talktohector\talktohector\obj\Release\talktohector.pdb
