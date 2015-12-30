@@ -52,19 +52,16 @@
       </div><!--.row-->
     </header> 
 
-    <!-- What's new coming section -->
-    
-    <!-- What's new coming section end -->
-
     <!-- Contact form section -->
     <section class="lu-contact" data-stellar-background-ratio="0.5">
+       
       <div class="lu-overlay">
         <div class="container">
           <h1 class="lu-section-title text-center">Leave a message</h1>
             <div class="col-md-6">
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" class="form-control" placeholder="Name" name="name">
+                 <div class="controls">
+                    <input type="text" class="form-control" placeholder="Name" name="name"/>
                 </div>
               </div>
               <div class="form-group">
@@ -87,8 +84,6 @@
               </div>
 
                    </div>
-
-
 
                                   <asp:LinkButton ID="submit" cssclass="btn btn-success btn-lg" Text="Submit" runat="server" OnClick="SendEmail"  />
 
