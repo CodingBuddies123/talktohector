@@ -19,20 +19,22 @@ namespace talktohector //NEW CODE
 
         public void SendEmail(object sender, EventArgs e)
         {
+            string EncodedResponse = Request.Form["g-recaptcha-response"];
+            bool IsCaptchaValid = (ReCaptchaClass.Validate(EncodedResponse) == "True" ? true : false);
 
-            try
+            if (IsCaptchaValid)
             {
-                
+
                 System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();
-                message.To.Add("hquiles@talktohector.com"); 
+                message.To.Add("hquiles@talktohector.com");
                 message.Subject = "This is the Subject line";
                 message.From = new System.Net.Mail.MailAddress("hquiles@talktohector.com");
 
-                
-                message.Body = "NAME: " + String.Format("{0}", Request.Form["name"])+"\n"+
-                               "EMAIL: "+ String.Format("{0}", Request.Form["email"])+"\n"+
-                               "SUBJECT: "+ String.Format("{0}", Request.Form["subject"])+"\n"+
-                               "MESSAGE: "+ String.Format("{0}", Request.Form["message"]);
+
+                message.Body = "NAME: " + String.Format("{0}", Request.Form["name"]) + "\n" +
+                               "EMAIL: " + String.Format("{0}", Request.Form["email"]) + "\n" +
+                               "SUBJECT: " + String.Format("{0}", Request.Form["subject"]) + "\n" +
+                               "MESSAGE: " + String.Format("{0}", Request.Form["message"]);
 
                 System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("relay-hosting.secureserver.net", 25);
                 smtp.EnableSsl = false;
@@ -40,18 +42,19 @@ namespace talktohector //NEW CODE
 
                 smtp.Credentials = credentials;
 
-             
+                try
+                {
 
-                smtp.Send(message);
-                mailStatusLabel.Text = "Mail Sent";
-                
-              
-            }
-            catch (Exception ex)
-            {
-                mailStatusLabel.Text = "ERROR\n" + ex.Message;
-            }
+                    smtp.Send(message);
+                    mailStatusLabel.Text = "Mail Sent";
 
+
+                }
+                catch (Exception ex)
+                {
+                    mailStatusLabel.Text = "ERROR\n" + ex.Message;
+                }
+            }
         }
     }
 }

@@ -10,3 +10,11 @@ C:\Users\20904\Documents\GitHub\talktohector\talktohector\bin\talktohector.pdb
 C:\Users\20904\Documents\GitHub\talktohector\talktohector\obj\Debug\talktohector.csprojResolveAssemblyReference.cache
 C:\Users\20904\Documents\GitHub\talktohector\talktohector\obj\Debug\talktohector.dll
 C:\Users\20904\Documents\GitHub\talktohector\talktohector\obj\Debug\talktohector.pdb
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\bin\talktohector.dll.config
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\bin\talktohector.dll
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\bin\talktohector.pdb
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\obj\Debug\talktohector.dll
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\obj\Debug\talktohector.pdb
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\bin\Newtonsoft.Json.dll
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\bin\Newtonsoft.Json.xml
+X:\Folder Redirection\My Documents\GitHub\talktohector\talktohector\obj\Debug\talktohector.csprojResolveAssemblyReference.cache
