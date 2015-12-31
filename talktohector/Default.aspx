@@ -75,10 +75,10 @@
                 </div>
                 <div class="form-group">
                     
-                            <%--<asp:Button Text="button1" CssClass="btn btn-primary" OnClick="SendEmail" runat="server" UseSubmitBehavior="true"/> --%>
+                  <%--<asp:Button Text="button1" CssClass="btn btn-primary" OnClick="SendEmail" runat="server" UseSubmitBehavior="true"/> --%>
                     
-                            <input type="submit" class="btn btn-primary" value="Submit" onclick="SendEmail" oninput="SendEmail">
-                    
+                    <asp:LinkButton Text="Send" runat="server" OnClick ="SendEmail" CssClass="btn btn-primary" /> 
+                   <%-- type="submit" class="btn btn-primary" value="Submit" onclick="SendEmail()">--%>
                    
                 </div>
                  <div class="form-group">
