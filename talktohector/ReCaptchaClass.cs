@@ -30,6 +30,7 @@ namespace talktohector
 
 
         private List<string> m_ErrorCodes;
+
         public static string Validate(string EncodedResponse)
         {
 
@@ -44,7 +45,16 @@ namespace talktohector
 
                 JavaScriptSerializer js = new JavaScriptSerializer();
                 var captchaResponse = js.Deserialize<ReCaptchaClass>(GoogleReply);// Deserialize Json
-                return captchaResponse.Success;
+
+                if (captchaResponse.ToString() == "true")
+                {
+                   return captchaResponse.Success; 
+                }
+                else
+                {
+                    return "false";
+                }
+                
               
             }
             catch (JsonException e)
