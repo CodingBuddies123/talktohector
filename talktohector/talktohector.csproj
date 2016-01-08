@@ -62,6 +62,66 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="conf.html" />
+    <Content Include="ContactPage.aspx" />
+    <Content Include="Content.Bootstrap.Examples\blog\blog.css" />
+    <Content Include="Content.Bootstrap.Examples\blog\index.html" />
+    <Content Include="Content.Bootstrap.Examples\carousel\carousel.css" />
+    <Content Include="Content.Bootstrap.Examples\carousel\index.html" />
+    <Content Include="Content.Bootstrap.Examples\cover\cover.css" />
+    <Content Include="Content.Bootstrap.Examples\cover\index.html" />
+    <Content Include="Content.Bootstrap.Examples\dashboard\dashboard.css" />
+    <Content Include="Content.Bootstrap.Examples\dashboard\index.html" />
+    <Content Include="Content.Bootstrap.Examples\grid\grid.css" />
+    <Content Include="Content.Bootstrap.Examples\grid\index.html" />
+    <Content Include="Content.Bootstrap.Examples\jumbotron-narrow\index.html" />
+    <Content Include="Content.Bootstrap.Examples\jumbotron-narrow\jumbotron-narrow.css" />
+    <Content Include="Content.Bootstrap.Examples\jumbotron\index.html" />
+    <Content Include="Content.Bootstrap.Examples\jumbotron\jumbotron.css" />
+    <Content Include="Content.Bootstrap.Examples\justified-nav\index.html" />
+    <Content Include="Content.Bootstrap.Examples\justified-nav\justified-nav.css" />
+    <Content Include="Content.Bootstrap.Examples\navbar-fixed-top\index.html" />
+    <Content Include="Content.Bootstrap.Examples\navbar-fixed-top\navbar-fixed-top.css" />
+    <Content Include="Content.Bootstrap.Examples\navbar-static-top\index.html" />
+    <Content Include="Content.Bootstrap.Examples\navbar-static-top\navbar-static-top.css" />
+    <Content Include="Content.Bootstrap.Examples\navbar\index.html" />
+    <Content Include="Content.Bootstrap.Examples\navbar\navbar.css" />
+    <Content Include="Content.Bootstrap.Examples\non-responsive\index.html" />
+    <Content Include="Content.Bootstrap.Examples\non-responsive\non-responsive.css" />
+    <Content Include="Content.Bootstrap.Examples\offcanvas\index.html" />
+    <Content Include="Content.Bootstrap.Examples\offcanvas\offcanvas.css" />
+    <Content Include="Content.Bootstrap.Examples\offcanvas\offcanvas.js" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\blog.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\carousel.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\cover.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\dashboard.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\equal-height-columns.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\grid.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\jumbotron-narrow.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\jumbotron.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\justified-nav.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\navbar-fixed.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\navbar-static.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\navbar.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\non-responsive.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\offcanvas.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\sign-in.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\starter-template.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\sticky-footer-navbar.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\sticky-footer.jpg" />
+    <Content Include="Content.Bootstrap.Examples\screenshots\theme.jpg" />
+    <Content Include="Content.Bootstrap.Examples\signin\index.html" />
+    <Content Include="Content.Bootstrap.Examples\signin\signin.css" />
+    <Content Include="Content.Bootstrap.Examples\starter-template\index.html" />
+    <Content Include="Content.Bootstrap.Examples\starter-template\starter-template.css" />
+    <Content Include="Content.Bootstrap.Examples\sticky-footer-navbar\index.html" />
+    <Content Include="Content.Bootstrap.Examples\sticky-footer-navbar\sticky-footer-navbar.css" />
+    <Content Include="Content.Bootstrap.Examples\sticky-footer\index.html" />
+    <Content Include="Content.Bootstrap.Examples\sticky-footer\sticky-footer.css" />
+    <Content Include="Content.Bootstrap.Examples\theme\index.html" />
+    <Content Include="Content.Bootstrap.Examples\theme\theme.css" />
+    <Content Include="Content.Bootstrap.Examples\tooltip-viewport\index.html" />
+    <Content Include="Content.Bootstrap.Examples\tooltip-viewport\tooltip-viewport.css" />
+    <Content Include="Content.Bootstrap.Examples\tooltip-viewport\tooltip-viewport.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -100,6 +160,13 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactPage.aspx.cs">
+      <DependentUpon>ContactPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactPage.aspx.designer.cs">
+      <DependentUpon>ContactPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Data.Repo\dbStoredProc.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -133,6 +200,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
