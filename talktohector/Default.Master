@@ -4,8 +4,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-
-
 <head runat="server">
     <title>Talk To Hector</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
