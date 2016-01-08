@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="talktohector.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Default.Master" CodeBehind="Contact.aspx.cs" Inherits="talktohector.Default" %>
 
 <!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-
+   
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
@@ -75,14 +75,13 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    
-                  <%--<asp:Button Text="button1" CssClass="btn btn-primary" OnClick="SendEmail" runat="server" UseSubmitBehavior="true"/> --%>
-                    
-                    <asp:LinkButton Text="Send" runat="server" OnClick ="SendEmail" CssClass="btn btn-primary" /> 
-                   <%-- type="submit" class="btn btn-primary" value="Submit" onclick="SendEmail()">--%>
-                   
+
+                    <%--<asp:Button Text="button1" CssClass="btn btn-primary" OnClick="SendEmail" runat="server" UseSubmitBehavior="true"/> --%>
+
+                    <asp:LinkButton Text="Send" runat="server" OnClick="SendEmail" CssClass="btn btn-primary" />
+                    <%-- type="submit" class="btn btn-primary" value="Submit" onclick="SendEmail()">--%>
                 </div>
-                 <div class="form-group">
+                <div class="form-group">
                     <div class="form-group">
                         <div class="alert alert-info">
 
