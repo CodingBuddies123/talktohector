@@ -130,8 +130,10 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="images\images.icons\facebook.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\images.icons\itunes.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -150,10 +152,12 @@
     <None Include="Properties\PublishProfiles\talktohector - ftp.pubxml" />
     <None Include="Properties\PublishProfiles\talktohector.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="images\images.icons\rss.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="images\images.icons\twitter.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

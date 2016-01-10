@@ -29,14 +29,14 @@
 
                     <!-- Social networks -->
 
-                    <div class="lu-social-networks text-center">
+<%--                    <div class="lu-social-networks text-center">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-google-plus"></i></a>
-                    </div>
+                    </div>--%>
 
                 </div>
                 <!--.col-md-12-->

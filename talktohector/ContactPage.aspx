@@ -1,81 +1,125 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Default.Master" CodeBehind="ContactPage.aspx.cs" Inherits="talktohector.ContactPage" %>
 
+<%--***************HEADER**************--%>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content.Bootstrap.Examples/carousel/carousel.css" rel="stylesheet" />
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  
-  <fieldset class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"/>
-    <small class="text-muted">We'll never share your email with anyone else.</small>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect1">Example select</label>
-    <select class="form-control" id="exampleSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleTextarea">Example textarea</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" class="form-control-file" id="exampleInputFile">
-    <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-  </fieldset>
-  <div class="radio">
-    <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked"/>
-      Option one is this and that&mdash;be sure to include why it's great
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"/>
-      Option two can be something else and selecting it will deselect option one
-    </label>
-  </div>
-  <div class="radio disabled">
-    <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="disabled"/>
-      Option three is disabled
-    </label>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"/> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
-    <script src="Scripts/jquery-1.9.1.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-</asp:Content>
-
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
+    </asp:Content>
+      
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
+    <%--    Form start--%>
+    <form id="form1" runat="server" method="post">
+        <header class="container">
+            <div class="container">
+                <div class="container text-center">
+
+                    <!-- Logo start -->
+                    <div class="container">
+                        <%--<img src="img/logo.png">--%>
+                    </div>
+                    <!-- Logo End -->
+
+                    <!-- Main Title start -->
+                    <h1 class="container">Coming Soon | talktohector.com</h1>
+                    <!-- Main title end -->
+
+                    <!-- Social networks -->
+
+<%--                    <div class="lu-social-networks text-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>--%>
+
+                </div>
+                <!--.col-md-12-->
+            </div>
+            <!--.row-->
+        </header>
+
+        <!-- Contact form section -->
+
+        <div class="container">
+            <h2 class="navbar-header h2">Leave a message</h2>
+            <div class="col-sm-12 center-block">
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="text" class="form-control" placeholder="Name" name="name" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="email" class="form-control email" placeholder="Email" name="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="text" class="form-control requiredField" placeholder="Subject" name="subject">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group">
+                        <div class="controls">
+                            <textarea rows="5" cols="2" class="form-control" placeholder="Message" name="message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <%--<asp:Button Text="button1" CssClass="btn btn-primary" OnClick="SendEmail" runat="server" UseSubmitBehavior="true"/> --%>
+
+                    <asp:LinkButton Text="Send" runat="server" OnClick="SendEmail" CssClass="btn btn-primary" />
+                    <%-- type="submit" class="btn btn-primary" value="Submit" onclick="SendEmail()">--%>
+                </div>
+                <div class="form-group">
+                    <div class="form-group">
+                        <div class="alert alert-info">
+
+                            <div class="g-recaptcha" data-sitekey="6LdGKRQTAAAAANtUcOHpvmwTSGv-tm2DxFQ9SWDQ"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <asp:Label ID="mailStatusLabel" runat="server"></asp:Label>
+ </form>
+        </>
+        <!-- Contact form section end -->
+
+       <%-- <footer class="modal-footer">
+            <div class="container text-center">
+                &copy; 2015 All Rights Reserved by talktohector.com
+            </div>
+        </footer>--%>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/retina.min.js"></script>
+        <script src="js/main.js"></script>
+   
+
+   
 </asp:Content>

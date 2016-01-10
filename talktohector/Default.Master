@@ -9,52 +9,77 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
+
+
     <%--CONTENT 1--%>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body>
-    <form id="form1" runat="server">
-
-        <div>
-            <div class="navbar-wrapper">
-                <div class="container">
-                    <nav class="navbar navbar-inverse navbar-static-top">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="#">Talk To Hector</a>
-                            </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="Default.aspx"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
-                                    <li><a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Blog</a>
-                                    <li><a href="ContactPage.aspx"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; Contact</a>
-                                    <li><a href="#"><i class="fa fa-rss fa-fw"></i>RSS</a>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-
-                </div>
-            </div>
-              <%--CONTENT 2--%>  
-
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                
-            </asp:ContentPlaceHolder>
-
-             <%--CONTENT 3--%>  
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-            </asp:ContentPlaceHolder>
-
-        </div>
    
-         </form>
+   
+</head>
+
+<body>
+<asp:contentplaceholder id="head" runat="server">
+</asp:contentplaceholder>
+
+
+
+  <%--  <form id="form1" runat="server">--%>
+
+ 
+        <div class="navbar-wrapper">
+            <div class="container">
+                <nav class="navbar navbar-inverse navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Talk To Hector</a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="Default.aspx"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+                                <li><a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Blog</a>
+                                <li><a href="ContactPage.aspx"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; Contact</a>
+                                <li><a href="#"><i class="fa fa-rss fa-fw"></i>RSS</a>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+ 
+   <%-- </form>--%>
+
+    <%--CONTENT 2--%>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <%--CONTENT 3--%>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+ <%--FOOTER SOCIAL MEDIA BUTTONS--%>
+    <asp:ContentPlaceHolder ID="ContetPlaceHolder3" runat="server">
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <br />
+            <div class="list-inline" style="text-align:center">
+                <a href="http://www.facebook.com/talktohector" target="_blank">
+                    <img src="\images\images.icons\facebook.png" class="img-circle" alt="Talk To Hector"></a>
+                <a href="https://itunes.apple.com/us/podcast/talk-to-hector/id1071746951?mt=2" target="_blank">
+                    <img src="\images\images.icons\itunes.png" class="img-circle" alt="Talk To Hector"></a>
+                <a href="https://twitter.com/hector_quiles" target="_blank">
+                    <img src="\images\images.icons\twitter.png" class="img-circle" alt="Talk To Hector"></a>
+                <a href="#" target="_blank">
+                    <img src="\images\images.icons\rss.png" class="img-circle" alt="Talk To Hector"></a>
+            </div>
+            <br />
+        </div>
+    </asp:ContentPlaceHolder>
+
+
 </body>
 </html>
