@@ -9,20 +9,15 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
-
-
-    <%--CONTENT 1--%>
-   
-   
+     <link href="Content/bootstrap.min.css" rel="stylesheet" /> 
+    <link href="Content.Bootstrap.Examples/carousel/carousel.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    
 </head>
 
 <body>
 <asp:contentplaceholder id="head" runat="server">
 </asp:contentplaceholder>
-
-
-
-  <%--  <form id="form1" runat="server">--%>
 
  
         <div class="navbar-wrapper">
@@ -52,17 +47,16 @@
             </div>
         </div>
  
-   <%-- </form>--%>
-
-    <%--CONTENT 2--%>
+ 
 
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
 
-    <%--CONTENT 3--%>
+
     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
     </asp:ContentPlaceHolder>
- <%--FOOTER SOCIAL MEDIA BUTTONS--%>
+
+ <%--FOOTER SOCIAL MEDIA BUTTONS BEGIN--%>
     <asp:ContentPlaceHolder ID="ContetPlaceHolder3" runat="server">
         <div class="navbar navbar-default navbar-fixed-bottom">
             <br />
@@ -79,7 +73,16 @@
             <br />
         </div>
     </asp:ContentPlaceHolder>
-
+     <%--FOOTER SOCIAL MEDIA BUTTONS END--%>
 
 </body>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/jquery.stellar.min.js"></script>
+            <script src="js/smoothscroll.js"></script>
+            <script src="js/jquery.countdown.min.js"></script>
+            <script src="js/retina.min.js"></script>
+            <script src="js/main.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 </html>

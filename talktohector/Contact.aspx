@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Contact.aspx.cs" Inherits="talktohector.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="talktohector.Default" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -29,7 +29,7 @@
 
                     <!-- Social networks -->
 
-<%--                    <div class="lu-social-networks text-center">
+                    <%--                    <div class="lu-social-networks text-center">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -37,7 +37,6 @@
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-google-plus"></i></a>
                     </div>--%>
-
                 </div>
                 <!--.col-md-12-->
             </div>
@@ -78,24 +77,20 @@
                     <asp:LinkButton Text="Send" runat="server" OnClick="SendEmail" CssClass="btn btn-primary" />
                     <%-- type="submit" class="btn btn-primary" value="Submit" onclick="SendEmail()">--%>
                 </div>
-                <div class="form-group">
-                    <div class="form-group">
-                        <div class="alert alert-info">
+                <div class="alert alert-info">
 
-                            <div class="g-recaptcha" data-sitekey="6LdGKRQTAAAAANtUcOHpvmwTSGv-tm2DxFQ9SWDQ"></div>
+                    <div class="g-recaptcha" data-sitekey="6LdGKRQTAAAAANtUcOHpvmwTSGv-tm2DxFQ9SWDQ"></div>
 
 
-                        </div>
-                    </div>
                 </div>
+
+
+
+
+
+
+
             </div>
-
-
-
-
-
-
-        </div>
 
         <asp:Label ID="mailStatusLabel" runat="server"></asp:Label>
 

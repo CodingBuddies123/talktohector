@@ -46,6 +46,7 @@ namespace talktohector
 
                     smtp.Send(message);
                     mailStatusLabel.Text = "Mail Sent";
+                    
 
 
                 }
@@ -59,7 +60,9 @@ namespace talktohector
 
             else
             {
+                mailStatusLabel.Visible = true;
                 mailStatusLabel.Text = "Something went wrong try again";
+                
             }
         }
 
