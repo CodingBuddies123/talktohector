@@ -23,9 +23,28 @@
                 <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Example headline.</h1>
-                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                       <%-- <h1>Example headline. </h1>--%>
+
+                        <div class="item center-block">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                           
+                            <asp:Image ImageUrl="/images/blue_canva.png" runat="server" /><style>
+                                                                                              img {
+                                                                                                  border-radius: 25PX;
+                                                                                                  max-width:120%;
+                                                                                                  height:80%
+                                                                                              }
+                                                                                          </style>
+
+                        </div>
+                        <%--<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>--%>
                     </div>
                 </div>
             </div>

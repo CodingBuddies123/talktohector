@@ -130,6 +130,9 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="images\bible_verse.png" />
+    <Content Include="images\blue_canva.png" />
+    <Content Include="images\free_advice.png" />
     <Content Include="images\images.icons\facebook.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
