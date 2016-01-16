@@ -10,44 +10,233 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>ftp://www.talktohector.com/httpdocs</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/30/2015 21:43:46</publishTime>
+    </File>
     <File Include="bin/talktohector.dll">
-      <publishTime>12/30/2015 10:19:23</publishTime>
+      <publishTime>01/15/2016 21:13:58</publishTime>
     </File>
     <File Include="conf.html">
-      <publishTime>12/28/2015 11:30:49</publishTime>
+      <publishTime>12/30/2015 19:54:25</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>01/11/2016 19:50:06</publishTime>
+    </File>
+    <File Include="ContactPage.aspx">
+      <publishTime>01/13/2016 22:24:18</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/blog/blog.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/blog/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/carousel/carousel.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/carousel/index.html">
+      <publishTime>01/07/2016 22:42:41</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/cover/cover.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/cover/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/dashboard/dashboard.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/dashboard/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/grid/grid.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/grid/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/jumbotron-narrow/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/jumbotron-narrow/jumbotron-narrow.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/jumbotron/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/jumbotron/jumbotron.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/justified-nav/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/justified-nav/justified-nav.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/navbar-fixed-top/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/navbar-fixed-top/navbar-fixed-top.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/navbar-static-top/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/navbar-static-top/navbar-static-top.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/navbar/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/navbar/navbar.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/non-responsive/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/non-responsive/non-responsive.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/offcanvas/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/offcanvas/offcanvas.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/offcanvas/offcanvas.js">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/blog.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/carousel.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/cover.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/dashboard.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/equal-height-columns.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/grid.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/jumbotron-narrow.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/jumbotron.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/justified-nav.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/navbar-fixed.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/navbar-static.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/navbar.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/non-responsive.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/offcanvas.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/sign-in.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/starter-template.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/sticky-footer-navbar.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/sticky-footer.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/screenshots/theme.jpg">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/signin/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/signin/signin.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/starter-template/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/starter-template/starter-template.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/sticky-footer-navbar/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/sticky-footer-navbar/sticky-footer-navbar.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/sticky-footer/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/sticky-footer/sticky-footer.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/theme/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/theme/theme.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/tooltip-viewport/index.html">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/tooltip-viewport/tooltip-viewport.css">
+      <publishTime>01/07/2016 22:33:29</publishTime>
+    </File>
+    <File Include="Content.Bootstrap.Examples/tooltip-viewport/tooltip-viewport.js">
+      <publishTime>01/07/2016 22:33:29</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css.map">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/13/2016 22:53:54</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:52</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/15/2016 20:22:19</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Content/font-awesome.css">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="Content/font-awesome.min.css">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
+    </File>
+    <File Include="Content/front-page.css">
+      <publishTime>01/15/2016 21:09:25</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>12/30/2015 07:22:59</publishTime>
+      <publishTime>01/15/2016 21:13:26</publishTime>
     </File>
     <File Include="Default.aspx.cs">
       <publishTime>12/30/2015 10:16:26</publishTime>
@@ -55,59 +244,86 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Default.aspx.designer.cs">
       <publishTime>12/29/2015 07:25:58</publishTime>
     </File>
+    <File Include="Default.Master">
+      <publishTime>01/15/2016 21:01:08</publishTime>
+    </File>
     <File Include="fonts/fontawesome-webfont.eot">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.svg">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.ttf">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.woff">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.woff2">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="fonts/FontAwesome.otf">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
+    </File>
+    <File Include="images/bible_verse.png">
+      <publishTime>01/04/2016 19:47:20</publishTime>
+    </File>
+    <File Include="images/blue_canva.png">
+      <publishTime>01/12/2016 22:37:28</publishTime>
+    </File>
+    <File Include="images/free_advice.png">
+      <publishTime>01/06/2016 20:04:46</publishTime>
+    </File>
+    <File Include="images/images.icons/facebook.png">
+      <publishTime>01/09/2016 17:32:55</publishTime>
+    </File>
+    <File Include="images/images.icons/itunes.png">
+      <publishTime>01/09/2016 17:32:55</publishTime>
+    </File>
+    <File Include="images/images.icons/rss.png">
+      <publishTime>01/09/2016 17:32:55</publishTime>
+    </File>
+    <File Include="images/images.icons/twitter.png">
+      <publishTime>01/09/2016 17:32:55</publishTime>
+    </File>
+    <File Include="images/slide1.png">
+      <publishTime>01/15/2016 19:07:16</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>12/28/2015 08:03:31</publishTime>
+      <publishTime>01/07/2016 21:37:36</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>12/28/2015 07:39:32</publishTime>
+      <publishTime>01/07/2016 20:39:51</publishTime>
     </File>
     <File Include="Scripts/jquery-1.9.1.js">
-      <publishTime>12/28/2015 07:39:28</publishTime>
+      <publishTime>01/07/2016 21:31:25</publishTime>
     </File>
     <File Include="Scripts/jquery-1.9.1.min.js">
-      <publishTime>12/28/2015 07:39:28</publishTime>
+      <publishTime>01/07/2016 21:31:22</publishTime>
     </File>
     <File Include="Scripts/jquery-1.9.1.min.map">
-      <publishTime>12/28/2015 07:39:28</publishTime>
+      <publishTime>01/07/2016 21:31:29</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/30/2015 10:19:25</publishTime>
+      <publishTime>01/15/2016 21:14:07</publishTime>
     </File>
   </ItemGroup>
 </Project>
