@@ -46,7 +46,7 @@ namespace talktohector
                 JavaScriptSerializer js = new JavaScriptSerializer();
                 var captchaResponse = js.Deserialize<ReCaptchaClass>(GoogleReply);// Deserialize Json
 
-                if (captchaResponse.ToString() == "true")
+                if (captchaResponse.Success == "true" || captchaResponse.Success == "True")
                 {
                    return captchaResponse.Success; 
                 }

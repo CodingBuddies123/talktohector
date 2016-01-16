@@ -14,21 +14,21 @@
 
     <!-- Carousel Start
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide img-responsive" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner img-responsive" role="listbox">
             <div class="item active">
-                <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide" />
-                <div class="container">
-                    <div class="carousel-caption">
+                <img class="first-slide img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide" />
+                <div class="container img-responsive">
+                    <div class="carousel-caption img-responsive">
 
 
-                        <div class="item">
+                        <div class="item img-responsive">
                             <br />
                             <br />
                             <br />
@@ -56,11 +56,11 @@
                         <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>--%>
                 </div>
             </div>
-            <div class="item">
-                <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <div class="item">
+            <div class="item img-responsive">
+                <img class="second-slide img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+                <div class="container img-responsive">
+                    <div class="carousel-caption img-responsive">
+                        <div class="item img-responsive">
                             <br />
                             <br />
                             <br />
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item img-responsive">
                 <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
