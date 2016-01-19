@@ -10,15 +10,18 @@ namespace talktohector
 {
     public partial class ContactPage : System.Web.UI.Page
     {
+
+        
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.DataBind();
         }
 
         public void SendEmail(object sender, EventArgs e)
         {
             string EncodedResponse = Request.Form["g-recaptcha-response"];
-
+           
             bool IsCaptchaValid = (ReCaptchaClass.Validate(EncodedResponse) == "True" ? true : false);
 
             if ((!EncodedResponse.Equals("")) && (IsCaptchaValid))
@@ -40,19 +43,23 @@ namespace talktohector
                 NetworkCredential credentials = new NetworkCredential("hquiles@talktohector.com", "***********");
 
                 smtp.Credentials = credentials;
-
+                
                 try
                 {
-
-                    smtp.Send(message);
-                    mailStatusLabel.Text = "Mail Sent";
+                   
+                    smtp.Send(message);                    
+                    emailSendWarning.Visible = false;
+                    emailSendSuccess.Visible = true;
                     
-
-
                 }
                 catch (Exception ex)
                 {
-                    mailStatusLabel.Text = "ERROR\n" + ex.Message;
+
+                    string exMessage = ex.InnerException.ToString();
+                    emailSendWarning.InnerHtml = exMessage;
+                    emailSendSuccess.Visible = false;
+                    emailSendWarning.Visible = true;
+                    
                 }
 
 
@@ -60,12 +67,13 @@ namespace talktohector
 
             else
             {
-                mailStatusLabel.Visible = true;
-                mailStatusLabel.Text = "Something went wrong try again";
-                
+                emailSendSuccess.Visible = false;
+                emailSendWarning.Visible = true;
+               
+
             }
         }
 
 
     }
-    }
+}

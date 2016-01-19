@@ -126,11 +126,13 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Carousel-Images-Fix.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\front-page.css" />
     <Content Include="Default.aspx" />
+    <Content Include="feed\feed.xml" />
     <Content Include="images\bible_verse.png" />
     <Content Include="images\blue_canva.png" />
     <Content Include="images\free_advice.png" />
@@ -138,6 +140,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\images.icons\itunes.png" />
+    <Content Include="images\PodcastLogo.png" />
     <Content Include="images\slide1.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

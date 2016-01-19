@@ -8,10 +8,10 @@
     <title>Talk To Hector</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
-    <link href="Content/font-awesome.min.css" rel="stylesheet" />    
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content.Bootstrap.Examples/carousel/carousel.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
-     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -22,7 +22,7 @@
 
     <div class="navbar-wrapper">
         <div class="container">
-            <nav class="navbar navbar-inverse navbar-static-top">
+            <nav class="navbar navbar-inverse <%--navbar-static-top--%>">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -36,7 +36,7 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="Default.aspx"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
-                            <%--<li><a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Blog</a>--%>
+                                <%--<li><a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Blog</a>--%>
                             <li><a href="ContactPage.aspx"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; Contact</a>
                             <li><a href="http://www.talktohector.com/feed/feed.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
                         </ul>
@@ -54,14 +54,14 @@
 
 
     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-
     </asp:ContentPlaceHolder>
 
     <%--FOOTER SOCIAL MEDIA BUTTONS BEGIN--%>
     <asp:ContentPlaceHolder ID="ContetPlaceHolder3" runat="server">
-        <div class="navbar navbar-default navbar-fixed-bottom">
-            <br />
-            <div class="list-inline" style="text-align: center">
+        <%--<div class="container-fluid">--%>
+
+        <div class="container bottom">
+            <footer class="navbar navbar-default text-center">
                 <a href="http://www.facebook.com/talktohector" target="_blank">
                     <img src="\images\images.icons\facebook.png" class="img-circle" alt="Talk To Hector"></a>
                 <a href="https://itunes.apple.com/us/podcast/talk-to-hector/id1071746951?mt=2" target="_blank">
@@ -70,10 +70,8 @@
                     <img src="\images\images.icons\twitter.png" class="img-circle" alt="Talk To Hector"></a>
                 <a href="/feed/feed.xml" target="_blank">
                     <img src="\images\images.icons\rss.png" class="img-circle" alt="Talk To Hector"></a>
-            </div>
-            <br />
+            </footer>
         </div>
-      
 
     </asp:ContentPlaceHolder>
     <%--FOOTER SOCIAL MEDIA BUTTONS END--%>
@@ -87,5 +85,6 @@
 <script src="js/main.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+<script src="Scripts/bootstrap.min.js"></script>
+<script src="Scripts/jquery-1.9.1.min.js"></script>
 </html>

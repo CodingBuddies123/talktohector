@@ -12,7 +12,7 @@
     <br />
     <br />
     <br />
-
+    <%--UDEMY BANNER--%>
     <div class="bottom text-center">
         <article>
 
@@ -24,8 +24,6 @@
                                                                                                                                                                 </style></a>
         </article>
     </div>
-
-
 
 </asp:Content>
 
@@ -74,29 +72,25 @@
                 </div>
             </div>
 
-            <div class="form-group text-center text-danger">
+            <%--Form Dismissable Alerts--%>
+            <div class="form-group text-center">
+                <div class="container center-block">
 
+                    <div id="emailSendWarning" class="alert alert-warning alert-dismissible fade in" role="alert" runat="server" visible="false">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>Holy guacamole!</strong> You should check in on some of those fields above.
+                    </div>
 
-                <asp:Label ID="mailStatusLabel" runat="server" CssClass="btn btn-warning" Visible="false" />
-          
-                
-
-            </div>
-
-            <p>
-
-                <asp:Label ID="mailSuccessLabel" cssclass="label-success" runat="server" />
-
-            </p>
-
-
-
-
+                    <div id="emailSendSuccess" class="alert alert-success alert-dismissible fade in" role="alert" runat="server" visible="false">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>Email Sent!</strong>
+                    </div>
+                </div>
         </form>
-
-    </div>
-
-
-</asp:Content>
-
 <%--***************CONTACT FORM END**************--%>
+    </div>
+</asp:Content>

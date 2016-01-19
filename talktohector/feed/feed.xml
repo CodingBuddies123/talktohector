@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="css" href="myformat.xslt" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+ 
+  <channel>
+    <link>http://www.talktohector.com</link>
+    <language>en-us</language>
+    <copyright>talktohector.com 2016</copyright>
+    <webMaster>hquiles@talktohector.com Hector Quiles</webMaster>
+    <managingEditor>hquiles@talktohector.com Hector Quiles</managingEditor>
+    <image>
+      <url>http://www.talktohector.com/images/PodcastLogo.png</url>
+      <title>Talk To Hector</title>
+      <link>http://www.talktohector.com</link>
+    </image>
+    <itunes:owner>
+      <itunes:name>Hector Quiles</itunes:name>
+      <itunes:email>hquiles@talktohector.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
+    <itunes:keywords>technology, news, christianity, theology, podcast</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://www.talktohector.com/images/PodcastLogo.png" />
+    <atom:link href="http://www.talktohector.com/feed/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Saturday, 02 Jan 2016 00:00:00 EST</pubDate>
+    <title>Talk To Hector</title>
+    <itunes:author>Hector Quiles</itunes:author>
+    <description>Welcome to talktohector.com a podcast about giving advice, helping others, prayer, technology, theology, news, and more.</description>
+    <itunes:summary>Welcome to talktohector.com a podcast about giving advice, helping others, prayer, technology, theology, news, and more.</itunes:summary>
+    <itunes:subtitle>A podcast about giving advice about life technology theology and more</itunes:subtitle>
+    <lastBuildDate>Saturday, 02 Jan 2016 00:00:00 EST</lastBuildDate>
+    <item>
+      <title>podcast intro</title>
+      <description>a new podcast brainstorming session</description>
+      <link>http://www.talktohector.com/podcasts/intro.mp3</link>
+      <enclosure url="http://www.talktohector.com/podcasts/intro.mp3" length="1421222" type="audio/mpeg"></enclosure>
+      <pubDate>Saturday, 02 Jan 2016 00:00:00 EST</pubDate>
+      <itunes:category text="Technology">
+        <itunes:category text="Information Technology"/>
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3:55</itunes:duration>
+      <itunes:keywords>intro, theology, technology</itunes:keywords>
+    </item>
+	<item>
+      <title>Episode 2 On God, prayer and other stuff</title>
+      <description>Hey guys... I have been a little busy but was able to take the time to describe what has been happening lately, as well as discussing some internesting things about faith and a new ministry developing in Puerto Rico</description>
+      <link>http://www.talktohector.com/podcasts/episode2.mp3</link>
+      <enclosure url="http://www.talktohector.com/podcasts/episode2.mp3" length="1421222" type="audio/mpeg"></enclosure>
+      <pubDate>Sunday, 10 Jan 2016 00:00:00 EST</pubDate>
+      <itunes:category text="Technology">
+        <itunes:category text="Information Technology"/>
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>33:55</itunes:duration>
+      <itunes:keywords>God, ministires, unborn, love, nations, advice,encouragement</itunes:keywords>
+    </item>
+  </channel>
+</rss>
